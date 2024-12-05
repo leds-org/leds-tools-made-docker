@@ -31,7 +31,7 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "lowdb": "^7.0.1",
-    "made-report-lib": "^0.0.6",
+    "made-report-lib": "^0.0.8",
     "dotenv": "^16.4.7"
   },
   "devDependencies": {
