@@ -1,12 +1,13 @@
 {
     "include": ["src"],
-    "exclude": ["**/*.test.ts"],
+    "exclude": ["node_modules", "dist","**/*.test.ts"],
     "compilerOptions": {
       "module": "esnext",
       "target": "esnext",
       "lib": ["esnext"],
       "declaration": true,
       "strict": true,
+      "forceConsistentCasingInFileNames": true,
       "moduleResolution": "node",
       "skipLibCheck": true,
       "esModuleInterop": true,

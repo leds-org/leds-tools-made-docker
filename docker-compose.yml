@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  made-report:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      JSON_FILE_PATH: /app/config/directories.json
+    volumes:
+      - ./config:/app/config # Monta o JSON de configuração
+      - /home/paulossjunior/leds-tools-made-docker/example:/host/example
