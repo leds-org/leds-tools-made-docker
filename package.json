@@ -29,17 +29,18 @@
   },
   "homepage": "https://github.com/your-username/my-ts-library#readme",
   "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
     "fs": "^0.0.1-security",
     "lowdb": "^7.0.1",
-    "made-report-lib": "^0.0.8",
-    "dotenv": "^16.4.7"
+    "made-report-lib": "^0.0.10"
   },
   "devDependencies": {
+    "@types/dotenv": "^8.2.0",
     "@types/node": "^22.10.1",
+    "ts-node": "^10.9.1",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2",
-    "vitest": "^2.1.8",
-    "@types/dotenv": "^8.2.0",
-    "ts-node": "^10.9.1"
+    "vitest": "^2.1.8"
   }
 }
