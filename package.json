@@ -33,7 +33,7 @@
     "dotenv": "^16.4.7",
     "fs": "^0.0.1-security",
     "lowdb": "^7.0.1",
-    "made-report-lib": "^0.0.12"
+    "made-report-lib": "^0.0.13"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
