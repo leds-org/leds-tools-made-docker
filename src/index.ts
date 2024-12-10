@@ -64,9 +64,11 @@ async function readPathsFromJson(filePath: string): Promise<PathConfig[]> {
                 
                 report.createReport(config.path);
                 console.log(`Criando os Reports para: ${config.path}`);
-    
-                const msg = await report.createSprintSummaryReport(config.path);
-                await enviarMensagemDiscord(msg, config.webhook);
+                if (config.webhook && config.path){
+                    const msg = await report.createSprintSummaryReport(config.path);
+                    await enviarMensagemDiscord(msg, config.webhook);
+                }
+                
             }
         } catch (error) {
             console.error("Erro na execução:", error);
