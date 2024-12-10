@@ -5,7 +5,7 @@ Docker container for generating MADE reports from specified directories.
 ## Quick Start
 
 ```bash
-docker pull ghcr.io/leds-org/leds-tools-made-docker:main
+docker pull ghcr.io/leds-conectafapes/leds-tools-made-docker:main
 ```
 
 ## Configuration
@@ -13,8 +13,10 @@ docker pull ghcr.io/leds-org/leds-tools-made-docker:main
 1. Create a `directories.json` file:
 ```json
 [
-  {"path": "example/path1"},
-  {"path": "example/path2"}
+  {
+    "path": "./example/",
+    "webhook": "xxxxx"
+  }
 ]
 ```
 
@@ -23,7 +25,7 @@ docker pull ghcr.io/leds-org/leds-tools-made-docker:main
 version: '3.8'
 services:
   made-report:
-    image: ghcr.io/leds-org/leds-tools-made-docker:main
+    image: ghcr.io/leds-conectafapes/leds-tools-made-docker:main
     environment:
       JSON_FILE_PATH: /app/config/directories.json
     volumes:
