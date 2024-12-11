@@ -9,3 +9,4 @@ services:
     volumes:
       - ./config:/app/config # Monta o JSON de configuração
       - /home/paulossjunior/leds-tools-made-docker/example:/host/example
+      - /home/paulossjunior/leds-tools-made-docker/example_1:/host/example_1

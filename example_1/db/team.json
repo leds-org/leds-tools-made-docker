@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "id": "bi",
+      "name": "BI Team",
+      "description": "Equipe responsável por produzir artefatos de BI",
+      "teammebers": [
+        {
+          "id": "moisesomena",
+          "name": "Moises Omena",
+          "email": "moisesomena@gmail.com"
+        },
+        {
+          "id": "mateuslannes",
+          "name": "Mateus Lannes ",
+          "email": "mateuslannes@gmail.com"
+        },
+        {
+          "id": "felipecostabeber",
+          "name": "Felipe Costabeber",
+          "email": "felipe.costabeber.s@gmail.com"
+        }
+      ]
+    }
+  ]
+}

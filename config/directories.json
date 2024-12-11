@@ -2,5 +2,10 @@
   {
     "path": "./example/",
     "webhook": "https://discord.com/api/webhooks/1314700401748217917/MEIk3QLgjuaRDy9xfJBNEwMInyAv8sfHBdUq9ogRwWduMapw6Sz4A9jxidqAqDPigSWM"
+  },
+  {
+    "path": "./example_1/",
+    "webhook": "https://discord.com/api/webhooks/1314700401748217917/MEIk3QLgjuaRDy9xfJBNEwMInyAv8sfHBdUq9ogRwWduMapw6Sz4A9jxidqAqDPigSWM"
   }
+
 ]
