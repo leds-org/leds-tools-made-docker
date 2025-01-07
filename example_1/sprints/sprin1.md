@@ -9,19 +9,37 @@ Entender os objetivos organizacionais da FAPES
 * **Status**: CLOSED
 ## Sprint Backlog
 
-|Nome |Resposável |Data de Inicío | Data Planejada | Status|
-|:----|:--------  |:-------:       | :----------:  | :---: |
-|Entrevistar|Mateus Lannes |25/11/2024|06/12/2024|TODO|
-|Entrevistar|Felipe Costabeber|25/11/2024|06/12/2024|DONE|
-|Validar dos da entrevista|Mateus Lannes |25/11/2024|06/12/2024|DONE|
-|Entrevistar|Felipe Costabeber|25/11/2024|05/12/2024|DONE|
-|Pesquisar sobre Medidas e Indicadores|Mateus Lannes |25/11/2024|06/12/2024|DONE|
-|Validar necessidade de informação|Mateus Lannes |25/11/2024|06/12/2024|TODO|
-|Validar as medidas e indicadores |Mateus Lannes |25/11/2024|06/12/2024|TODO|
-      
+|Nome |Descrição|Resposável |Data de Inicio Planejada| Data de Entrega Planejada| Data de Inicío | Data Entrega | Status|
+|:----|:---------|:-------- |:----------------------:| :-----------------------:| :------------: |:------------:|:-----:|
+|Entrevistar|Entrevista os clientes para levantar os objetivos organizacionais relacionados bolsa|Mateus Lannes |25/11/2024|25/11/2024|25/11/2024|06/12/2024|TODO|
+|Entrevistar|Entrevista os clientes para levantar os objetivos organizacionais relacionados bolsa|Felipe Costabeber|25/11/2024|25/11/2024|25/11/2024|06/12/2024|DONE|
+|Validar dos da entrevista|Validar objetivos organizacionais|Mateus Lannes |25/11/2024|25/11/2024|25/11/2024|06/12/2024|DONE|
+|Entrevistar|Entrevista os clientes para levantar os objetivos organizacionais relacionados bolsa|Felipe Costabeber|25/11/2024|25/11/2024|25/11/2024|05/12/2024|DONE|
+|Pesquisar sobre Medidas e Indicadores|Pesquisar sobre medidas e indicadores para atender a necessidade de informações|Mateus Lannes |25/11/2024|25/11/2024|25/11/2024|06/12/2024|DONE|
+|Validar necessidade de informação|Validar as necessidade de informação|Mateus Lannes |25/11/2024|25/11/2024|25/11/2024|06/12/2024|TODO|
+|Validar as medidas e indicadores |Validar medias e indicadores|Mateus Lannes |25/11/2024|25/11/2024|25/11/2024|06/12/2024|TODO|
+     
+## Gantt 
+
+```mermaid
+gantt
+    dateFormat YYYY-MM-DD
+    axisFormat %d/%m
+
+
+    section Sprint - Entender os objetivos organizacionais
+    Entrevistar (Real) :done, Entrevistar_actual, 2024-11-25, 2024-12-06
+    Entrevistar (Real) :done, Entrevistar_actual, 2024-11-25, 2024-12-06
+    Validar dos da entrevista (Real) :done, Validar dos da entrevista_actual, 2024-11-25, 2024-12-06
+    Entrevistar (Real) :done, Entrevistar_actual, 2024-11-25, 2024-12-05
+    Pesquisar sobre Medidas e Indicadores (Real) :done, Pesquisar sobre Medidas e Indicadores_actual, 2024-11-25, 2024-12-06
+    Validar necessidade de informação (Real) :done, Validar necessidade de informação_actual, 2024-11-25, 2024-12-06
+    Validar as medidas e indicadores  (Real) :done, Validar as medidas e indicadores _actual, 2024-11-25, 2024-12-06
+```
+
 # Análise de Dependências do Sprint
 
-Análise gerada em: 11/12/2024, 11:52:25
+Análise gerada em: 07/01/2025, 23:43:55
 
 ## 🔍 Grafo de Dependências
 
@@ -55,21 +73,23 @@ graph BT
 | # | Título | Status | Responsável | Dependências |
 |---|--------|--------|-------------|---------------|
 | 1 | Entrevistar | DONE | Felipe Costabeber | 🆓 |
-| 2 | Validar necessidade de informação | TODO | Mateus Lannes  | bi.identificarobjetivo.identificarnecessidadeinformacao.entrevista✅ |
-| 3 | Validar as medidas e indicadores  | TODO | Mateus Lannes  | bi.identificarobjetivo.definirmedidasindicadores.pesquisar✅ |
-| 4 | Entrevistar | DONE | Felipe Costabeber | bi.identificarobjetivo.identificarobjetivos.validar✅ |
-| 5 | Pesquisar sobre Medidas e Indicadores | DONE | Mateus Lannes  | bi.identificarobjetivo.identificarobjetivos.validar✅ |
-| 6 | Validar dos da entrevista | DONE | Mateus Lannes  | bi.identificarobjetivo.identificarobjetivos.entrevista✅ |
+| 2 | Validar necessidade de informação | TODO | Mateus Lannes  | Entrevistar✅ |
+| 3 | Validar as medidas e indicadores  | TODO | Mateus Lannes  | Pesquisar sobre Medidas e Indicadores✅ |
+| 4 | Entrevistar | DONE | Felipe Costabeber | Validar dos da entrevista✅ |
+| 5 | Pesquisar sobre Medidas e Indicadores | DONE | Mateus Lannes  | Validar dos da entrevista✅ |
+| 6 | Validar dos da entrevista | DONE | Mateus Lannes  | Entrevistar✅ |
 
 **Legenda das Dependências:**
 - 🆓 Sem dependências
 - ✅ Issue concluída
 - ⚠️ Dependência externa ao sprint
 
-        
-       
+            
 ## Cumulative Flow
 ![ Cumulative Flow](./charts/cfd-sprin1.svg)
+
+## Throughput
+![ Throughput](./charts/throuput-sprin1.svg)
         
 
         

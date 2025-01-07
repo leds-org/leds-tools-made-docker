@@ -5,14 +5,14 @@
               text { font-family: Arial, sans-serif; }
               .title { font-size: 24px; font-weight: bold; }
               .label { font-size: 14px; }
-              .value { font-size: 12px; fill: #666666; }
+              .value { font-size: 12px; fill: white; }
               .axis { font-size: 12px; }
               .legend { font-size: 14px; }
             </style>
           </defs>
-
+          
           <rect width="1200" height="600" fill="white"/>
-
+          
           
               <line 
                 x1="70" 
@@ -190,23 +190,7 @@
                 dominant-baseline="middle"
               >0</text>
             
-
-          <path 
-            d="M70,50 L315,50 L560,50 L805,50 L1050,50 L1050,500 L805,500 L560,500 L315,500 L70,500 Z" 
-            fill="#ef4444" 
-            opacity="0.8"
-          />
-          <path 
-            d="M70,275 L315,230 L560,140 L805,50 L1050,50 L1050,500 L805,500 L560,500 L315,500 L70,500 Z" 
-            fill="#f59e0b" 
-            opacity="0.8"
-          />
-          <path 
-            d="M70,500 L315,320 L560,275 L805,140 L1050,50 L1050,500 L805,500 L560,500 L315,500 L70,500 Z" 
-            fill="#22c55e" 
-            opacity="0.8"
-          />
-
+          
           <line 
             x1="70" 
             y1="50" 
@@ -223,49 +207,252 @@
             stroke="black" 
             stroke-width="2"
           />
-
           
+          
+              <g>
+                <rect 
+                  x="89.6" 
+                  y="500" 
+                  width="50" 
+                  height="0" 
+                  fill="#ef4444"
+                  rx="4"
+                />
+                
+                <rect 
+                  x="89.6" 
+                  y="500" 
+                  width="50" 
+                  height="0" 
+                  fill="#f59e0b"
+                  rx="4"
+                />
+                
+                <rect 
+                  x="89.6" 
+                  y="500" 
+                  width="50" 
+                  height="0" 
+                  fill="#22c55e"
+                  rx="4"
+                />
+                
                 <text 
-                  transform="rotate(-45 70 520)"
-                  x="70"
-                  y="520"
-                  text-anchor="end"
+                  transform="rotate(-45 114.6 520)" 
+                  x="114.6" 
+                  y="520" 
+                  text-anchor="end" 
                   class="axis"
                 >seg. 09/12</text>
-              
+                
+                
+                
+                
+                
+                
+              </g>
+            
+              <g>
+                <rect 
+                  x="285.6" 
+                  y="500" 
+                  width="50" 
+                  height="0" 
+                  fill="#ef4444"
+                  rx="4"
+                />
+                
+                <rect 
+                  x="285.6" 
+                  y="500" 
+                  width="50" 
+                  height="0" 
+                  fill="#f59e0b"
+                  rx="4"
+                />
+                
+                <rect 
+                  x="285.6" 
+                  y="320" 
+                  width="50" 
+                  height="180" 
+                  fill="#22c55e"
+                  rx="4"
+                />
+                
                 <text 
-                  transform="rotate(-45 315 520)"
-                  x="315"
-                  y="520"
-                  text-anchor="end"
+                  transform="rotate(-45 310.6 520)" 
+                  x="310.6" 
+                  y="520" 
+                  text-anchor="end" 
                   class="axis"
                 >ter. 10/12</text>
-              
+                
+                
+                
+                
+                
+                
+                  <text 
+                    x="310.6" 
+                    y="410" 
+                    text-anchor="middle" 
+                    class="value"
+                  >4</text>
+                
+              </g>
+            
+              <g>
+                <rect 
+                  x="481.6" 
+                  y="500" 
+                  width="50" 
+                  height="0" 
+                  fill="#ef4444"
+                  rx="4"
+                />
+                
+                <rect 
+                  x="481.6" 
+                  y="500" 
+                  width="50" 
+                  height="0" 
+                  fill="#f59e0b"
+                  rx="4"
+                />
+                
+                <rect 
+                  x="481.6" 
+                  y="275" 
+                  width="50" 
+                  height="225" 
+                  fill="#22c55e"
+                  rx="4"
+                />
+                
                 <text 
-                  transform="rotate(-45 560 520)"
-                  x="560"
-                  y="520"
-                  text-anchor="end"
+                  transform="rotate(-45 506.6 520)" 
+                  x="506.6" 
+                  y="520" 
+                  text-anchor="end" 
                   class="axis"
                 >qua. 11/12</text>
-              
+                
+                
+                
+                
+                
+                
+                  <text 
+                    x="506.6" 
+                    y="387.5" 
+                    text-anchor="middle" 
+                    class="value"
+                  >5</text>
+                
+              </g>
+            
+              <g>
+                <rect 
+                  x="677.6" 
+                  y="500" 
+                  width="50" 
+                  height="0" 
+                  fill="#ef4444"
+                  rx="4"
+                />
+                
+                <rect 
+                  x="677.6" 
+                  y="500" 
+                  width="50" 
+                  height="0" 
+                  fill="#f59e0b"
+                  rx="4"
+                />
+                
+                <rect 
+                  x="677.6" 
+                  y="140" 
+                  width="50" 
+                  height="360" 
+                  fill="#22c55e"
+                  rx="4"
+                />
+                
                 <text 
-                  transform="rotate(-45 805 520)"
-                  x="805"
-                  y="520"
-                  text-anchor="end"
+                  transform="rotate(-45 702.6 520)" 
+                  x="702.6" 
+                  y="520" 
+                  text-anchor="end" 
                   class="axis"
                 >qui. 12/12</text>
-              
+                
+                
+                
+                
+                
+                
+                  <text 
+                    x="702.6" 
+                    y="320" 
+                    text-anchor="middle" 
+                    class="value"
+                  >8</text>
+                
+              </g>
+            
+              <g>
+                <rect 
+                  x="873.6" 
+                  y="500" 
+                  width="50" 
+                  height="0" 
+                  fill="#ef4444"
+                  rx="4"
+                />
+                
+                <rect 
+                  x="873.6" 
+                  y="500" 
+                  width="50" 
+                  height="0" 
+                  fill="#f59e0b"
+                  rx="4"
+                />
+                
+                <rect 
+                  x="873.6" 
+                  y="50" 
+                  width="50" 
+                  height="450" 
+                  fill="#22c55e"
+                  rx="4"
+                />
+                
                 <text 
-                  transform="rotate(-45 1050 520)"
-                  x="1050"
-                  y="520"
-                  text-anchor="end"
+                  transform="rotate(-45 898.6 520)" 
+                  x="898.6" 
+                  y="520" 
+                  text-anchor="end" 
                   class="axis"
                 >sex. 13/12</text>
-              
-
+                
+                
+                
+                
+                
+                
+                  <text 
+                    x="898.6" 
+                    y="275" 
+                    text-anchor="middle" 
+                    class="value"
+                  >10</text>
+                
+              </g>
+            
+          
           <text 
             transform="rotate(-90 30 300)" 
             x="30" 
@@ -273,35 +460,35 @@
             text-anchor="middle" 
             class="label"
           >Número de Tarefas</text>
-
+          
           <text 
             x="600" 
             y="580" 
             text-anchor="middle" 
             class="label"
           >Dias da Sprint</text>
-
+          
           <text 
             x="600" 
             y="30" 
             text-anchor="middle" 
             class="title"
-          >Levantar Infraestrutura de BI no LEDS - Cumulative Flow Diagram</text>
-
+          >Levantar Infraestrutura de BI no LEDS - Throughput</text>
+          
           <g transform="translate(1070, 50)">
             <rect width="15" height="15" fill="#ef4444" rx="2"/>
-            <text x="25" y="12" class="legend">A Fazer</text>
+            <text x="25" y="12" class="legend">TODO</text>
             
             <rect y="25" width="15" height="15" fill="#f59e0b" rx="2"/>
-            <text x="25" y="37" class="legend">Em Andamento</text>
+            <text x="25" y="37" class="legend">DOING</text>
             
             <rect y="50" width="15" height="15" fill="#22c55e" rx="2"/>
-            <text x="25" y="62" class="legend">Concluído</text>
+            <text x="25" y="62" class="legend">DONE</text>
             
-            <text x="0" y="90" class="value">
+            <text x="0" y="90" class="value" fill="#666666">
               Período: 09/12/2024 - 13/12/2024
             </text>
-            <text x="0" y="110" class="value">
+            <text x="0" y="110" class="value" fill="#666666">
               Total de Issues: 10
             </text>
           </g>

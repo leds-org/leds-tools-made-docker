@@ -1,6 +1,6 @@
 {
   "name": "made lib",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "made lib",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -33,7 +33,7 @@
     "dotenv": "^16.4.7",
     "fs": "^0.0.1-security",
     "lowdb": "^7.0.1",
-    "made-report-lib": "^0.0.19"
+    "made-report-lib": "^0.0.20"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
