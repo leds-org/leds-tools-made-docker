@@ -1,17 +1,17 @@
 # 🎯 Roadmaps
 
-# Rodmap do BI
+# Roadmap do time QA
 
-Roadmap do BI
+Roadmap com objetivos principais (milestones) a serem alcançados pelo time de QA.
 
 
 ## 📊 Visão Geral do Progresso
 
 Status atual do roadmap:
-- Total de Milestones: 3
+- Total de Milestones: 1
 - Concluídos: 0
 - Em Progresso: 1
-- Planejados: 2
+- Planejados: 0
 - Atrasados: 0
 
 Progresso: 0%
@@ -19,42 +19,10 @@ Progresso: 0%
 ## 🎯 Milestones
 
 
-### 🏃 Versão de Dashboard com Bolsas (IN_PROGRESS)
+### 🏃 Pipeline de QA (testing) (IN_PROGRESS)
 - **Início**: 01/12/2024
-- **Conclusão Prevista**: 20/12/2024
-- **Descrição**: Versão do Dashboard com a infraestrutura local
-- **Releases Associadas**: 1.0
-- **Dependências**: Nenhuma
-      
-    
-#### Releases
-| Versão | Nome | Status | Data Prevista | Data Release |
-|--------|------|--------|---------------|--------------|
-| 1.0 |  | 🏗️ IN_DEVELOPMENT | 20/12/2024 | N/A |
-
-
-#### Issues
-| Key | Tipo | Título | Status | Labels |
-|-----|------|--------|--------|--------|
-| .identificarobjetivo | epic | Criar dashboard ligado a bolsas | N/A | N/A |
-
-
-      
-
-### 📋 Versão de Dashboard com Bolsas com OLAP (PLANNED)
-- **Início**: 06/01/2025
-- **Conclusão Prevista**: 30/01/2025
-- **Descrição**: Versão do Dashboard com a infraestrutura OLAP
-- **Releases**: Nenhuma
-- **Dependências**: Nenhuma
-      
-    
-      
-
-### 📋 Versão de Dashboard com Bolsas com OLAP em Produção (PLANNED)
-- **Início**: 01/02/2025
-- **Conclusão Prevista**: 28/02/2025
-- **Descrição**: Versão do Dashboard com a infraestrutura OLAP em Produção
+- **Conclusão Prevista**: 20/01/2025
+- **Descrição**: Desenvolver pipeline de QA (testing) no Drone para execução e validação de scripts de teste E2E.
 - **Releases**: Nenhuma
 - **Dependências**: Nenhuma
       
@@ -63,10 +31,5 @@ Progresso: 0%
 
 ## 📅 Timeline
 
-- 01/12/2024 - 🏃 **Milestone Start**: Versão de Dashboard com Bolsas
-- 20/12/2024 - 🏃 **Milestone Due**: Versão de Dashboard com Bolsas
-- 20/12/2024 - 🏗️ **Release**: 1.0 - 
-- 06/01/2025 - 📋 **Milestone Start**: Versão de Dashboard com Bolsas com OLAP
-- 30/01/2025 - 📋 **Milestone Due**: Versão de Dashboard com Bolsas com OLAP
-- 01/02/2025 - 📋 **Milestone Start**: Versão de Dashboard com Bolsas com OLAP em Produção
-- 28/02/2025 - 📋 **Milestone Due**: Versão de Dashboard com Bolsas com OLAP em Produção
+- 01/12/2024 - 🏃 **Milestone Start**: Pipeline de QA (testing)
+- 20/01/2025 - 🏃 **Milestone Due**: Pipeline de QA (testing)

@@ -1,11 +1,11 @@
 {
   "data": [
     {
-      "id": "BI",
-      "name": "Dashboar de Bolsas da Fapes",
-      "description": "Dashboard de BI do Conecta Fapes",
+      "id": "qa",
+      "name": "Quality Assurance Conecta Fapes",
+      "description": " Quality Assurance dos FAPES.",
       "startDate": "01/12/2024",
-      "dueDate": "28/02/2025",
+      "dueDate": "31/12/2025",
       "completedDate": ""
     }
   ]

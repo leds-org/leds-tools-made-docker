@@ -37,8 +37,8 @@ Dashboard de BI do Conecta Fapes
 ### ✅ PROJETO PROVAVELMENTE SERÁ CONCLUÍDO NO PRAZO
 
 - **Probabilidade de conclusão no prazo**: 100.0%
-- **Data mais provável de conclusão**: ter., 07/01/2025
-- **Dias em relação ao planejado**: 25 dias
+- **Data mais provável de conclusão**: qua., 08/01/2025
+- **Dias em relação ao planejado**: 26 dias
 - **Status**: ❌ Atraso Crítico
 
 ### 📊 Métricas do Projeto
@@ -54,7 +54,7 @@ Dashboard de BI do Conecta Fapes
 
 | Data | Probabilidade | Status | Observação |
 |------|---------------|---------|------------|
-| ter., 07/01/2025 | 100.0% | ❌ Atraso Crítico | 📍 Data mais provável |
+| qua., 08/01/2025 | 100.0% | ❌ Atraso Crítico | 📍 Data mais provável |
 
 ## 💡 Recomendações
 
@@ -71,4 +71,4 @@ Dashboard de BI do Conecta Fapes
 - **Simulações Realizadas**: 10,000
 
 ---
-*Relatório gerado em 07/01/2025, 23:43:55*
+*Relatório gerado em 08/01/2025, 00:11:24*

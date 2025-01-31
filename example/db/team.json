@@ -1,24 +1,34 @@
 {
   "data": [
     {
-      "id": "bi",
-      "name": "BI Team",
-      "description": "Equipe responsável por produzir artefatos de BI",
+      "id": "time_qa",
+      "name": "QA Team",
+      "description": "Equipe responsável por produzir artefatos de QA",
       "teammebers": [
         {
-          "id": "moisesomena",
-          "name": "Moises Omena",
-          "email": "moisesomena@gmail.com"
+          "id": "davinunes",
+          "name": "Davi Nunes",
+          "email": "davinunesribeiro@gmail.com"
         },
         {
-          "id": "mateuslannes",
-          "name": "Mateus Lannes ",
-          "email": "mateuslannes@gmail.com"
+          "id": "gianpaneto",
+          "name": "Gian Paneto",
+          "email": "gianpaneto@gmail.com"
         },
         {
-          "id": "felipecostabeber",
-          "name": "Felipe Costabeber",
-          "email": "felipe.costabeber.s@gmail.com"
+          "id": "luanotoni",
+          "name": "Luan Otoni",
+          "email": "luan.oliveira@estudante.ifes.edu.br"
+        },
+        {
+          "id": "leandrocarone",
+          "name": "Leandro Carone",
+          "email": "leandrocala2@gmail.com"
+        },
+        {
+          "id": "sofiadealcantara",
+          "name": "Sofia de Alcantara",
+          "email": "sofiaalcantaras@outlook.com"
         }
       ]
     }

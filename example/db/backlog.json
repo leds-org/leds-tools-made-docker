@@ -1,248 +1,551 @@
 {
   "data": [
     {
-      "id": "ideias",
-      "name": "Ideias a serem pensadas",
-      "description": "Backlog para ideias futuras e estudo",
+      "id": "janeiro25",
+      "name": "Backlog - Janeiro/2024",
+      "description": "Objetivos Gerais:\n            1. Criar uma pipeline de CI/CD para o ambiente de testes, de forma a permitir as validações dos módulos desenvolvidos pela equipe de dev, e habilite a implantação segura das aplicações até o final de janeiro/2025.\n            2. Desenvolver um MVP (Minimo Produto Viável) para atendimento de chamados via Whatsapp.",
       "issues": [
         {
-          "id": "ideias.cdc",
-          "title": "Estudar CDC",
-          "description": "",
-          "type": "epic",
-          "depends": []
-        }
-      ]
-    },
-    {
-      "id": "BI",
-      "name": "Backlog do BI",
-      "description": "Backlog dedicado a equipe de BI",
-      "issues": [
-        {
-          "id": "BI.identificarobjetivo",
-          "title": "Criar dashboard ligado a bolsas",
-          "description": "Criar um dashboard com metricas sobre bolsas para apoiar a tomada de decisão",
+          "id": "janeiro25.e001",
+          "title": "Realizar cobertura de testes E2E do módulo 'Modalidades de Bolsas'",
+          "description": "Objetivo: Garantir que o módulo 'Modalidades de Bolsas' seja devidamente testado e que, identificados bugs, estes sejam devidamente relatados para que o time de Desenvolvimento seja capaz de corrigir erros.",
           "type": "epic",
           "issues": [
             {
-              "id": "BI.identificarobjetivo.identificarobjetivos",
-              "title": "Identificar objetivos",
-              "description": "Queremos identificar quais objetivos organizacionais estão relacionado a bolsa",
+              "id": "janeiro25.e001.s001",
+              "title": "Criar planilha de referência para gerenciamente de testes de qualidade",
+              "description": "",
               "type": "atomicuserstory",
-              "issues": [
-                {
-                  "id": "BI.identificarobjetivo.identificarobjetivos.entrevista",
-                  "title": "Entrevistar",
-                  "description": "Entrevista os clientes para levantar os objetivos organizacionais relacionados bolsa",
-                  "type": "taskbacklog",
-                  "depends": []
-                },
-                {
-                  "id": "BI.identificarobjetivo.identificarobjetivos.validar",
-                  "title": "Validar dos da entrevista",
-                  "description": "Validar objetivos organizacionais",
-                  "type": "taskbacklog",
-                  "depends": [
-                    {
-                      "id": "bi.identificarobjetivo.identificarobjetivos.entrevista"
-                    }
-                  ]
-                }
-              ],
               "depends": []
             },
             {
-              "id": "BI.identificarobjetivo.identificarnecessidadeinformacao",
-              "title": "Identificar as necessidades de informacao",
-              "description": "Identificar quais informações são relevantes para responder os objetivos organizacionais",
+              "id": "janeiro25.e001.s002",
+              "title": "Organizar repositório de testes de qualidade para cada módulo desenvolvido",
+              "description": "",
               "type": "atomicuserstory",
-              "issues": [
-                {
-                  "id": "BI.identificarobjetivo.identificarnecessidadeinformacao.entrevista",
-                  "title": "Entrevistar",
-                  "description": "Entrevista os clientes para levantar os objetivos organizacionais relacionados bolsa",
-                  "type": "taskbacklog",
-                  "depends": [
-                    {
-                      "id": "bi.identificarobjetivo.identificarobjetivos.validar"
-                    }
-                  ]
-                },
-                {
-                  "id": "BI.identificarobjetivo.identificarnecessidadeinformacao.validar",
-                  "title": "Validar necessidade de informação",
-                  "description": "Validar as necessidade de informação",
-                  "type": "taskbacklog",
-                  "depends": [
-                    {
-                      "id": "bi.identificarobjetivo.identificarnecessidadeinformacao.entrevista"
-                    }
-                  ]
-                }
-              ],
-              "depends": [
-                {
-                  "id": "bi.identificarobjetivo.identificarobjetivos"
-                }
-              ]
+              "depends": []
             },
             {
-              "id": "BI.identificarobjetivo.definirmedidasindicadores",
-              "title": "Identificar as Medidas e Indicadores",
-              "description": "Identificar quais informações são as medidas e indicadores para as necessidades de informação",
+              "id": "janeiro25.e001.s003",
+              "title": "Desenvolver pipeline de QA (testing) no Drone para execução e validação de scripts de teste E2E.",
+              "description": "",
               "type": "atomicuserstory",
-              "issues": [
-                {
-                  "id": "BI.identificarobjetivo.definirmedidasindicadores.pesquisar",
-                  "title": "Pesquisar sobre Medidas e Indicadores",
-                  "description": "Pesquisar sobre medidas e indicadores para atender a necessidade de informações",
-                  "type": "taskbacklog",
-                  "depends": [
-                    {
-                      "id": "bi.identificarobjetivo.identificarobjetivos.validar"
-                    }
-                  ]
-                },
-                {
-                  "id": "BI.identificarobjetivo.definirmedidasindicadores.validar",
-                  "title": "Validar as medidas e indicadores ",
-                  "description": "Validar medias e indicadores",
-                  "type": "taskbacklog",
-                  "depends": [
-                    {
-                      "id": "bi.identificarobjetivo.definirmedidasindicadores.pesquisar"
-                    }
-                  ]
-                }
-              ],
-              "depends": [
-                {
-                  "id": "bi.identificarobjetivo.identificarnecessidadeinformacao"
-                }
-              ]
+              "depends": []
+            },
+            {
+              "id": "janeiro25.e001.s004",
+              "title": "Criar testes caixa preta do módulo 'Modalidades de Bolsas' e gerar issues de bugs a serem resolvidos seguindo modelo",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "janeiro25.e001.s005",
+              "title": "Criar guia de orientação para desenvolvedores quanto ao uso do atributo 'data-test' para assegurar pleno funcionamento dos testes",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
             }
           ],
           "depends": []
         },
         {
-          "id": "BI.levantarinfraestruturaleds",
-          "title": "Levantar Infraestrutura de ETL",
-          "description": "Construir uma infraestrutura conectando o banco Conecta ao Stage Data e Power BI, com Apache Airflow.",
+          "id": "janeiro25.e002",
+          "title": "Desenvolver um MVP (Minimo Produto Viável) para atendimento de chamados via Whatsapp.",
+          "description": "Objetivo: Viabilizar comunicação com usuários do sistema de forma simples e eficaz, garantindo um fluxo de trabalho automatizado e proporcionando aos usuários maior qualidade no atendimento.",
           "type": "epic",
           "issues": [
             {
-              "id": "BI.levantarinfraestruturaleds.levantardatastage",
-              "title": "Configurar o banco Stage Data",
-              "description": "Configurar o banco de dados Stage Data para armazenar os dados extraídos do banco Conecta.",
+              "id": "janeiro25.e002.s001",
+              "title": "Criar um módulo de capture mensagens de um telefone Whatsapp e registre numa fila Kafka",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "janeiro25.e002.s002",
+              "title": "[Spike] Estudar como instalar e usar o Kafka para criação de sistema de mensageria (fazer documentação inicial)",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "janeiro25.e002.s003",
+              "title": "Criar um módulo que leia mensagens do Kafka e registre as mensagens no RT e vice-versa",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "janeiro25.e002.s004",
+              "title": "Criar um sistema de mensageria para integrar o atendimento via Whatsapp com RT, disponibilizando as mensagens para outras aplicações",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            }
+          ],
+          "depends": []
+        },
+        {
+          "id": "janeiro25.e003",
+          "title": "Realizar testes de performance nos ambientes disponíveis e",
+          "description": "Objetivo: Estabelecer métricas e fazer levantamento de estatísticas de performance para melhor entendimento do desempenho do sistema.",
+          "type": "epic",
+          "issues": [
+            {
+              "id": "janeiro25.e003.s001",
+              "title": "[Spike] Estudar métodos e ferramentas para testes de performance nos ambientes disponíveis",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "janeiro25.e003.s002",
+              "title": "[Spike] Estudar métodos e ferramentas para testes de carga nos ambientes disponíveis",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            }
+          ],
+          "depends": []
+        }
+      ]
+    },
+    {
+      "id": "ideias",
+      "name": "Backlog",
+      "description": "Coletânea de tarefas, ideias e estudos a serem realizar futuramente em momento oportuno.Dados reproduzidos de https://github.com/leds-conectafapes/leds-devops-plannig/",
+      "issues": [
+        {
+          "id": "ideias.r001",
+          "title": "Desenvolver um guia interno que documente as melhores práticas de desenvolvimento e QA para ser seguido por toda a equipe.",
+          "description": "",
+          "type": "epic",
+          "issues": [
+            {
+              "id": "ideias.r001.s001",
+              "title": "Modelagem de processo de desenvolvimento e entrega de software",
+              "description": "",
               "type": "atomicuserstory",
               "issues": [
                 {
-                  "id": "BI.levantarinfraestruturaleds.levantardatastage.alinharcomdevops",
-                  "title": "Alinhar com a equipe de DevOps",
-                  "description": "Alinhar permissões e acessos do bnaco com a equipe de DevOps.",
+                  "id": "ideias.r001.s001.t001",
+                  "title": "Criar processo do gitflow ci-cd padrão do LEDS em BPMN",
+                  "description": "",
                   "type": "taskbacklog",
                   "depends": []
                 },
                 {
-                  "id": "BI.levantarinfraestruturaleds.levantardatastage.verificarfuncionamentodatastage",
-                  "title": "Verificar funcionamento do Stage Data",
-                  "description": "Testar a conectividade e validação do banco Stage Data",
+                  "id": "ideias.r001.s001.t002",
+                  "title": "Validar processo gitflow ci-cd com equipe",
+                  "description": "",
                   "type": "taskbacklog",
-                  "depends": [
-                    {
-                      "id": "bi.levantarinfraestruturaleds.levantardatastage.alinharcomdevops"
-                    }
-                  ]
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r001.s001.t003",
+                  "title": "Criar documentação das tarefas de usuário do processo",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r001.s001.t004",
+                  "title": "Disponibilizar documentação e capacitar a equipe",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                }
+              ],
+              "depends": []
+            }
+          ],
+          "depends": []
+        },
+        {
+          "id": "ideias.r002",
+          "title": "Treinamento em Boas Práticas Produção e Revisão de Código",
+          "description": "",
+          "type": "epic",
+          "issues": [
+            {
+              "id": "ideias.r002.s001",
+              "title": "Realizar workshops e treinamentos regulares sobre padrões de codificação, revisão de código e práticas de QA.",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "ideias.r002.s002",
+              "title": "Produzir artigos e videos para treinamento contínuo de equipe.",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            }
+          ],
+          "depends": []
+        },
+        {
+          "id": "ideias.r003",
+          "title": "Criação de um Manual de Boas Práticas de Deploy e Segurança de código",
+          "description": "",
+          "type": "epic",
+          "issues": [
+            {
+              "id": "ideias.r003.s001",
+              "title": "Desenvolver um guia interno que documente as melhores práticas de implantação segura de código a ser seguido por toda a equipe.",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            }
+          ],
+          "depends": []
+        },
+        {
+          "id": "ideias.r004",
+          "title": "Implementação de Testes de Software",
+          "description": "",
+          "type": "epic",
+          "issues": [
+            {
+              "id": "ideias.r004.s001",
+              "title": "Implementar estrutura de referência para testes de unitários e geração de relatórios de cobertura de código.",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "ideias.r004.s002",
+              "title": "Implementar estrutura de referência para testes de integração que cubra todas as funcionalidades críticas do software.",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "ideias.r004.s003",
+              "title": "Definição e implementação de uma solução de testes de qualidade de código",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "ideias.r004.s004",
+              "title": "Integrar os testes automatizados no pipeline de CI/CD para execução em cada commit e pull request.",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            }
+          ],
+          "depends": []
+        },
+        {
+          "id": "ideias.r005",
+          "title": "Criação de um Processo de Revisão de Código Automatizado",
+          "description": "",
+          "type": "epic",
+          "issues": [
+            {
+              "id": "ideias.r005.s001",
+              "title": "Definir metodologia referencial de revisão de código.",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "ideias.r005.s002",
+              "title": "Capacitar a equipe em revisão de código.",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "ideias.r005.s003",
+              "title": "Desenvolver scripts e ferramentas que verifiquem automaticamente a conformidade com padrões de código e testes antes da aprovação de PRs.",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "ideias.r005.s004",
+              "title": "Integrar os testes automatizados no pipeline de CI/CD para execução em cada commit e pull request.",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            }
+          ],
+          "depends": []
+        },
+        {
+          "id": "ideias.r006",
+          "title": "Implementar Integração Contínua e Entrega Contínua (CI/CD) com Segurança Contínua",
+          "description": "Criar pipelines de CI/CD eficientes que integrem verificações de segurança automatizadas, permitindo a entrega rápida, segura e confiável de novas funcionalidades.",
+          "type": "epic",
+          "issues": [
+            {
+              "id": "ideias.r006.s001",
+              "title": "Desenvolvimento de Pipeline de CI/CD Automatizado",
+              "description": "",
+              "type": "atomicuserstory",
+              "issues": [
+                {
+                  "id": "ideias.r006.s001.t001",
+                  "title": "Implantar um executor de pipeline on-premise no LEDS",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r006.s001.t002",
+                  "title": "Instalar o Drone CI em ambiente de testes",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r006.s001.t003",
+                  "title": "Criar documentação de instalação do Drone",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r006.s001.t004",
+                  "title": "Disponibilizar documentação e capacitar a equipe",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r006.s001.t005",
+                  "title": "Instalar o Drone CI em ambiente de produção a partir da documentação",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r006.s001.t006",
+                  "title": "Criar documentação criação de Pipeline para projeto de software a partir do processo gitflow ci-cd",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r006.s001.t007",
+                  "title": "Capacitar a equipe na criação de pipeline",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
                 }
               ],
               "depends": []
             },
             {
-              "id": "BI.levantarinfraestruturaleds.configurarairflowetl",
-              "title": "Configurar o Airflow para pipelines ETL",
-              "description": "Configurar o Airflow para extrair dados do banco Conecta, transformá-los e carregá-los no banco Stage Data.",
+              "id": "ideias.r006.s002",
+              "title": "Automatizar o deploy das aplicações em ambientes de teste, homologação e produção, com rollback automático em caso de falha.",
+              "description": "",
               "type": "atomicuserstory",
               "issues": [
                 {
-                  "id": "BI.levantarinfraestruturaleds.configurarairflowetl.instalarconfigurarairflow",
-                  "title": "Instalar e configurar o Airflow",
-                  "description": "Instalar o Airflow e configurar conexões com os bancos Conecta e Stage Data.",
+                  "id": "ideias.r006.s002.t001",
+                  "title": "Criar um processo de padrão de deploy",
+                  "description": "",
                   "type": "taskbacklog",
                   "depends": []
                 },
                 {
-                  "id": "BI.levantarinfraestruturaleds.configurarairflowetl.criardagsetl",
-                  "title": "Criar DAGs para pipelines ETL",
-                  "description": "Implementar DAGs básicas que realizam ETL entre os bancos Conecta e Stage Data.",
-                  "type": "taskbacklog",
-                  "depends": [
-                    {
-                      "id": "bi.levantarinfraestruturaleds.configurarairflowetl.instalarconfigurarairflow"
-                    }
-                  ]
-                },
-                {
-                  "id": "BI.levantarinfraestruturaleds.configurarairflowetl.testarpipelinesetl",
-                  "title": "Testar pipelines ETL",
-                  "description": "Executar e testar os pipelines criados.",
-                  "type": "taskbacklog",
-                  "depends": [
-                    {
-                      "id": "bi.levantarinfraestruturaleds.configurarairflowetl.criardagsetl"
-                    }
-                  ]
-                }
-              ],
-              "depends": [
-                {
-                  "id": "bi.levantarinfraestruturaleds.levantardatastage.verificarfuncionamentodatastage"
-                }
-              ]
-            },
-            {
-              "id": "BI.levantarinfraestruturaleds.conectarbancoaopowerbi",
-              "title": "Conectar banco Stage Data ao Power BI",
-              "description": "Integrar o banco Stage Data ao Power BI para criar relatórios baseados nos dados processados do Stage Data.",
-              "type": "atomicuserstory",
-              "issues": [
-                {
-                  "id": "BI.levantarinfraestruturaleds.conectarbancoaopowerbi.importardadosnopowerbi",
-                  "title": "Importar dados no Power BI",
-                  "description": "Configurar a conexão do Power BI com o banco Stage Data e importar dados.",
+                  "id": "ideias.r006.s002.t002",
+                  "title": "Estudar estratégias de deploy",
+                  "description": "",
                   "type": "taskbacklog",
                   "depends": []
                 },
                 {
-                  "id": "BI.levantarinfraestruturaleds.conectarbancoaopowerbi.criarmodelopowerbi",
-                  "title": "Criar modelo de dados no Power BI",
-                  "description": "Configurar relacionamentos e transformações no Power BI para estruturar os dados para visualização.",
+                  "id": "ideias.r006.s002.t003",
+                  "title": "Definir estratégia padrão de deploy para projetos do LEDS",
+                  "description": "",
                   "type": "taskbacklog",
-                  "depends": [
-                    {
-                      "id": "bi.levantarinfraestruturaleds.conectarbancoaopowerbi.importardadosnopowerbi"
-                    }
-                  ]
+                  "depends": []
                 },
                 {
-                  "id": "BI.levantarinfraestruturaleds.conectarbancoaopowerbi.criarrelatoriospowerbi",
-                  "title": "Validar relatórios e gráficos no Power BI",
-                  "description": "Garantir que os relatórios e gráficos gerados no Power BI estão corretos e atendem aos requisitos do projeto.",
+                  "id": "ideias.r006.s002.t004",
+                  "title": "Criar documentação para implementação do deploy",
+                  "description": "",
                   "type": "taskbacklog",
-                  "depends": [
-                    {
-                      "id": "bi.levantarinfraestruturaleds.conectarbancoaopowerbi.criarmodelopowerbi"
-                    }
-                  ]
+                  "depends": []
                 }
               ],
-              "depends": [
-                {
-                  "id": "bi.levantarinfraestruturaleds.configurarairflowetl.testarpipelinesetl"
-                }
-              ]
+              "depends": []
             }
           ],
+          "depends": []
+        },
+        {
+          "id": "ideias.r007",
+          "title": "Criação de um processo contínuo de gestão de segredos, tokens e certoficados",
+          "description": "",
+          "type": "epic",
+          "depends": []
+        },
+        {
+          "id": "ideias.r008",
+          "title": "Definir e implantar um sistema de AAA para acesso as recursos e sistemas",
+          "description": "",
+          "type": "epic",
+          "depends": []
+        },
+        {
+          "id": "ideias.r009",
+          "title": "Treinamento em aplicações escaláveis com microserviços",
+          "description": "",
+          "type": "epic",
+          "depends": []
+        },
+        {
+          "id": "ideias.r0010",
+          "title": "Implantação de ambiente seguro em nuvem local ou publica para build e deploy de aplicações escaláveis",
+          "description": "",
+          "type": "epic",
+          "depends": []
+        },
+        {
+          "id": "ideias.r011",
+          "title": "Criação de um processo de gestão de infraestrutura em IaC executado em pipeline",
+          "description": "",
+          "type": "epic",
+          "depends": []
+        },
+        {
+          "id": "ideias.r012",
+          "title": "Implantação de um sistema de monitoramento de ativos e aplicações para acompanhamento de KPI de SLA",
+          "description": "",
+          "type": "epic",
+          "depends": []
+        },
+        {
+          "id": "ideias.r013",
+          "title": "Implantação de um sistema inteligente de coleta e análise de log de ativos, sistemas e aplicações com suporte a trace de aplicações",
+          "description": "",
+          "type": "epic",
+          "issues": [
+            {
+              "id": "ideias.r013.s001",
+              "title": "Implantação de uma DMZ para ambientes de desenvolvimento, testes e produção",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "ideias.r013.s002",
+              "title": "Implantação de um sistema de atendimento de incidentes",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            },
+            {
+              "id": "ideias.r013.s003",
+              "title": "Implantação de um sistema de gestão de logs, eventos e trace de aplicações",
+              "description": "",
+              "type": "atomicuserstory",
+              "depends": []
+            }
+          ],
+          "depends": []
+        },
+        {
+          "id": "ideias.r015",
+          "title": "Implantar CI/CD para os softwares desenvolvidos",
+          "description": "",
+          "type": "epic",
+          "issues": [
+            {
+              "id": "ideias.r015.s001",
+              "title": "Backend-admin",
+              "description": "",
+              "type": "atomicuserstory",
+              "issues": [
+                {
+                  "id": "ideias.r015.s001.t001",
+                  "title": "Implementar um CI de build, testes e análise de qualidade de código",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r015.s001.t002",
+                  "title": "Implementar um CD para ambientes de desenvolvimento, testes e produção",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r015.s001.t003",
+                  "title": "Definir métricas validação para testes, desempenho e segurança",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r015.s001.t004",
+                  "title": "Criar monitoramento de KPI da aplicação para monitoramento de qualidade, desempenho e segurança",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                }
+              ],
+              "depends": []
+            },
+            {
+              "id": "ideias.r015.s002",
+              "title": "Frontend-admin",
+              "description": "",
+              "type": "atomicuserstory",
+              "issues": [
+                {
+                  "id": "ideias.r015.s002.t001",
+                  "title": "Implementar um CI de build, testes e análise de qualidade de código",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r015.s002.t002",
+                  "title": "Implementar um CD para ambientes de desenvolvimento, testes e produção",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r015.s002.t003",
+                  "title": "Definir métricas validação para testes, desempenho e segurança",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                },
+                {
+                  "id": "ideias.r015.s002.t004",
+                  "title": "Criar monitoramento de KPI da aplicação para monitoramento de qualidade, desempenho e segurança",
+                  "description": "",
+                  "type": "taskbacklog",
+                  "depends": []
+                }
+              ],
+              "depends": []
+            }
+          ],
+          "depends": []
+        },
+        {
+          "id": "ideias.r016",
+          "title": "Criar uma pipeline de deploy da aplicação: Front e backend",
+          "description": "",
+          "type": "epic",
+          "depends": []
+        },
+        {
+          "id": "ideias.r017",
+          "title": "Criar o monitoramento dos KPI das aplicações nos respectivos ambientes (desenvolvimento, testing,",
+          "description": "",
+          "type": "epic",
           "depends": []
         }
       ]
