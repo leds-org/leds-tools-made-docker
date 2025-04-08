@@ -1,7 +1,7 @@
 [
   {
     "path": "./example/",
-    "webhook": "https://discord.com/api/webhooks/1318180565823918152/OItkwIgez8ktM9QWi-hDNKjsWbWCmTctxdUVym4GTktf_SVfE9s7RMW8bbSNcJpyIt0n"
+    "webhook": "https://example.com/webhook"
   }
 
 ]
